@@ -17,22 +17,22 @@ define('KANBOARD_FILE', 'db.sqlite');
 // ** Edit the column titles only ! **
 $KANBOARD_COLUMNS = array(
   array( // 0
-    'title' => 'En attente',
+    'title' => 'Backlog',
     'position' => 1,
     'task_limit' => 0
   ),
   array( // 1
-    'title' => 'Prêt',
+    'title' => 'Ready',
     'position' => 2,
     'task_limit' => 0
   ),
   array( // 2
-    'title' => 'En cours',
+    'title' => 'Work in Progress',
     'position' => 3,
     'task_limit' => 0
   ),
   array( // 3
-    'title' => 'Terminé',
+    'title' => 'Done',
     'position' => 4,
     'task_limit' => 0
   )
@@ -45,7 +45,7 @@ define('KANBOARD_DEFAULT_COLUMN', 0);
 define('KANBOARD_COMPLETED_COLUMN', 3);
 
 // Inbox list / project title
-define('INBOX_TITLE', 'Boîte de réception');
+define('INBOX_TITLE', 'Persona');
 
 // There's is nothing to modify after this line
 // -------------------------------------------------------------------------- //
